@@ -1,2 +1,2 @@
-# PSMT-Update
-PS Multi Tools Updater
+# PSMT Update
+Simple Updater for PS Multi Tools

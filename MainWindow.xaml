@@ -1,0 +1,13 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PSMT_Update"
+        mc:Ignorable="d"
+        Title="PS Multi Tools Updater" Height="120" Width="565" Background="#FF232323" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Canvas x:Name="MainCanvas">
+        <TextBlock x:Name="UpdateTextBlock" Text="Please wait" VerticalAlignment="Top" Foreground="White" FontSize="18" Width="500" TextAlignment="Center" Canvas.Top="10" Canvas.Left="25" HorizontalAlignment="Left"/>
+        <ProgressBar x:Name="UpdateProgressBar" Height="25" VerticalAlignment="Top" Width="500" IsIndeterminate="True" Foreground="#FF00A0FF" Canvas.Left="25" Canvas.Top="42" HorizontalAlignment="Left"/>
+    </Canvas>
+</Window>
